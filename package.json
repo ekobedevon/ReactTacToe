@@ -2,7 +2,7 @@
   "name": "reac-tic-tac",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://UNT-CSCE-Club.github.io/React-Tac-Toe-Final",
+  "homepage": "https://ekobedevon.github.io/ReactTacToe",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
   const [board, setBoard] = useState(["","","","","","","","",""])
-  const [turn,setTurn] = useState(true)
+  const [turn,setTurn] = useState(false)
   const [win,setWin] = useState(false)
   const [text,setText] = useState("X's turn")
 
