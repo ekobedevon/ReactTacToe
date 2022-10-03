@@ -4,9 +4,9 @@ import './App.css'
 
 function App() {
   const [board, setBoard] = useState(["","","","","","","","",""])
-  const [turn,setTurn] = useState(false)
+  const [turn,setTurn] = useState(true)
   const [win,setWin] = useState(false)
-  const [text,setText] = useState("X's turn")
+  const [text,setText] = useState("X's Turn")
 
   const newGame = () => {
     setBoard(["","","","","","","","",""])
@@ -55,8 +55,8 @@ function App() {
     {
       let newBoard = [...board]
       setBoard(newBoard[index] = boolToLet(turn))
+      setText(boolToLet(!turn)+"'s Turn")
       setTurn(!turn)
-      setText(newBoard[index]+"'s Turn")
       setBoard(newBoard)
     }
   }
